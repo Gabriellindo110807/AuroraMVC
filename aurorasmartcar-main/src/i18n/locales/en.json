@@ -1,0 +1,60 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "lists": "Lists",
+    "products": "Products",
+    "cart": "Cart",
+    "history": "History",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "home": {
+    "hero_title": "Simplify your shopping with",
+    "hero_subtitle": "Smart shopping list system for modern supermarkets",
+    "manage_lists": "Manage Lists",
+    "view_products": "View Products",
+    "footer": "© 2025 Aurora Technology"
+  },
+  "lists": {
+    "title": "My Lists",
+    "new_list": "New List",
+    "previous": "Previous Lists",
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "empty": "No lists found",
+    "items": "items",
+    "total": "Total",
+    "create_list": "Create List",
+    "list_name": "List Name",
+    "scan_product": "Scan Product",
+    "add_manually": "Add Manually",
+    "complete_list": "Complete Purchase",
+    "delete_list": "Delete List"
+  },
+  "products": {
+    "title": "Products",
+    "all_categories": "All Categories",
+    "add_to_cart": "Add",
+    "in_stock": "In stock",
+    "out_of_stock": "Out of stock"
+  },
+  "scanner": {
+    "title": "Scan QR Code",
+    "scanning": "Scanning...",
+    "point_camera": "Point camera at product QR Code",
+    "product_added": "Product added!",
+    "error": "Error scanning code",
+    "no_camera": "Camera not available"
+  }
+}

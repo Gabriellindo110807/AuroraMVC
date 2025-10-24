@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 45% 8%;
+    --foreground: 45 100% 95%;
+
+    --card: 220 40% 12%;
+    --card-foreground: 45 100% 95%;
+
+    --popover: 220 40% 12%;
+    --popover-foreground: 45 100% 95%;
+
+    --primary: 220 60% 20%;
+    --primary-foreground: 45 100% 95%;
+
+    --secondary: 45 85% 55%;
+    --secondary-foreground: 220 60% 15%;
+
+    --muted: 220 35% 18%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 45 90% 65%;
+    --accent-foreground: 220 60% 15%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 45 100% 95%;
+
+    --border: 220 30% 22%;
+    --input: 220 30% 22%;
+    --ring: 45 85% 55%;
+
+    --radius: 0.5rem;
+
+    /* Gold accent colors */
+    --gold: 45 85% 55%;
+    --gold-light: 45 90% 65%;
+    --gold-dark: 45 75% 45%;
+    
+    /* Navy blue colors */
+    --navy: 220 60% 20%;
+    --navy-light: 220 50% 30%;
+    --navy-dark: 220 65% 12%;
+    
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light)));
+    --gradient-navy: linear-gradient(to bottom, hsl(var(--navy-dark)), hsl(var(--navy)));
+    
+    /* Shadows */
+    --shadow-gold: 0 4px 20px hsl(var(--gold) / 0.25);
+    --shadow-card: 0 4px 12px hsl(220 60% 4% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-image: radial-gradient(circle at 10% 20%, hsl(var(--gold) / 0.08) 0%, transparent 40%),
+                      radial-gradient(circle at 90% 80%, hsl(var(--navy-light) / 0.12) 0%, transparent 50%);
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .gold-glow {
+    box-shadow: 0 0 20px hsl(var(--gold) / 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .gold-glow:hover {
+    box-shadow: 0 0 30px hsl(var(--gold) / 0.5);
+    transform: translateY(-2px);
+  }
+}

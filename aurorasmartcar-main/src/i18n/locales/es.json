@@ -1,0 +1,60 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "search": "Buscar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "lists": "Listas",
+    "products": "Productos",
+    "cart": "Carrito",
+    "history": "Historial",
+    "logout": "Salir",
+    "login": "Entrar"
+  },
+  "home": {
+    "hero_title": "Simplifica tus compras con",
+    "hero_subtitle": "Sistema inteligente de listas de compras para supermercados modernos",
+    "manage_lists": "Gestionar Listas",
+    "view_products": "Ver Productos",
+    "footer": "© 2025 Aurora Technology"
+  },
+  "lists": {
+    "title": "Mis Listas",
+    "new_list": "Nueva Lista",
+    "previous": "Listas Previas",
+    "ongoing": "En Curso",
+    "completed": "Completadas",
+    "empty": "No se encontraron listas",
+    "items": "artículos",
+    "total": "Total",
+    "create_list": "Crear Lista",
+    "list_name": "Nombre de la Lista",
+    "scan_product": "Escanear Producto",
+    "add_manually": "Agregar Manualmente",
+    "complete_list": "Finalizar Compra",
+    "delete_list": "Eliminar Lista"
+  },
+  "products": {
+    "title": "Productos",
+    "all_categories": "Todas las Categorías",
+    "add_to_cart": "Agregar",
+    "in_stock": "En stock",
+    "out_of_stock": "Agotado"
+  },
+  "scanner": {
+    "title": "Escanear Código QR",
+    "scanning": "Escaneando...",
+    "point_camera": "Apunta la cámara al código QR del producto",
+    "product_added": "¡Producto agregado!",
+    "error": "Error al escanear código",
+    "no_camera": "Cámara no disponible"
+  }
+}
